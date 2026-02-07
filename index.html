@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Строй-Мастер | Промышленный и жилой ремонт в Москве</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo-group">
+                <div class="logo-box">СМ</div>
+                <span class="logo-text">Строй-Мастер</span>
+            </div>
+
+            <nav class="main-nav">
+                <a href="#portfolio" class="nav-link">Объекты</a>
+                <a href="#pricing" class="nav-link">Цены</a>
+                <a href="#workflow" class="nav-link">Опыт</a>
+                <a href="#leads" class="nav-link">Смета</a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="tel:+78005553535" class="phone-link">+7 (800) 555-35-35</a>
+                <a href="#leads" class="button button-primary">Вызвать замерщика</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="section hero-section">
+            <div class="image-wrapper">
+                <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=2070"
+                    alt="Construction Background" class="hero-bg-image">
+            </div>
+
+            <div class="container hero-content">
+                <h1 class="hero-title">
+                    Капитальный ремонт <br>
+                    <span class="text-orange">точно в срок</span>
+                </h1>
+
+                <div class="hero-subtitle">
+                    Фиксированная смета по договору. <br>
+                    <span class="hero-desc">Никаких скрытых платежей. Гарантия 5 лет по закону РФ.</span>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#leads" class="button button-primary">Рассчитать смету</a>
+                    <a href="#portfolio" class="button button-outline">Смотреть объекты</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust Indicators -->
+        <section class="trust-section">
+            <div class="container trust-grid">
+                <div class="trust-item">GAZPROM</div>
+                <div class="trust-item">ROSATOM</div>
+                <div class="trust-item">LUKOIL</div>
+                <div class="trust-item">YANDEX</div>
+            </div>
+        </section>
+
+        <!-- Why Us -->
+        <section id="why-us" class="section">
+            <div class="container">
+                <h2 class="section-title">Почему <span class="text-blue">Строй-Мастер</span></h2>
+
+                <div class="why-us-grid">
+                    <!-- Feature 1 -->
+                    <div class="feature-card">
+                        <div class="svg-icon">
+                            <svg class="feature-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Трезвые бригады</h3>
+                        <p class="feature-text">Дисциплина — наш стандарт. Никаких простоев из-за низкой квалификации
+                            или прогулов.</p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="feature-card">
+                        <div class="svg-icon">
+                            <svg class="feature-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Оплата по факту</h3>
+                        <p class="feature-text">Никакой 100% предоплаты. Вы платите только за закрытые акты и принятые
+                            этапы работ.</p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="feature-card">
+                        <div class="svg-icon">
+                            <svg class="feature-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Оптовые цены</h3>
+                        <p class="feature-text">Скидки до 20% на материалы за счет прямых контрактов с
+                            заводами-производителями.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="section" style="background-color: #f9fafb;">
+            <div class="container">
+                <div class="portfolio-header">
+                    <div>
+                        <h2 class="section-title text-blue" style="margin-bottom: 16px;">Наши объекты</h2>
+                        <p class="font-bold text-gray text-uppercase" style="letter-spacing: 0.1em;">Мы гордимся тем,
+                            что строим</p>
+                    </div>
+                    <div class="portfolio-year">2026</div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image-wrapper image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800"
+                                alt="Office Project" class="project-image">
+                            <span class="project-tag">Бизнес-центр</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Офис «Технопарк»</h3>
+                            <div class="project-meta">
+                                <span>850 м²</span>
+                                <span>3.5 мес.</span>
+                            </div>
+                            <p class="project-desc">Полный цикл капитального ремонта с заменой всех инженерных систем и
+                                перепланировкой.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image-wrapper image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800"
+                                alt="Apartment Project" class="project-image">
+                            <span class="project-tag">Жилой фонд</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">ЖК «Ривьера»</h3>
+                            <div class="project-meta">
+                                <span>120 м²</span>
+                                <span>1.5 мес.</span>
+                            </div>
+                            <p class="project-desc">Дизайнерский ремонт премиум-класса с использованием натурального
+                                камня и ценных пород дерева.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-image-wrapper image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800"
+                                alt="Industrial Project" class="project-image">
+                            <span class="project-tag">Индустриальный</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Складской комплекс</h3>
+                            <div class="project-meta">
+                                <span>2500 м²</span>
+                                <span>5 мес.</span>
+                            </div>
+                            <p class="project-desc">Промышленные полы, высокомощные системы вентиляции и пожаротушения.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Workflow -->
+        <section id="workflow" class="section bg-blue text-white">
+            <div class="container">
+                <h2 class="section-title text-center" style="margin-bottom: 64px;">Как мы <span
+                        class="text-orange">работаем</span></h2>
+
+                <div class="workflow-grid">
+                    <div class="workflow-step">
+                        <div class="step-number">01</div>
+                        <h3 class="step-title">Заявка и замер</h3>
+                        <p class="step-desc">Выезжаем в день обращения. Профильно оцениваем состояние объекта и снимаем
+                            точные замеры.</p>
+                    </div>
+
+                    <div class="workflow-step">
+                        <div class="step-number">02</div>
+                        <h3 class="step-title">Точная смета</h3>
+                        <p class="step-desc">Готовим детальный расчет. Вы получаете итоговую стоимость, которая
+                            закрепляется в договоре.</p>
+                    </div>
+
+                    <div class="workflow-step">
+                        <div class="step-number">03</div>
+                        <h3 class="step-title">Этапный ремонт</h3>
+                        <p class="step-desc">Выполняем работы по графику. Вы контролируете процесс через фотоотчеты в
+                            Telegram.</p>
+                    </div>
+
+                    <div class="workflow-step">
+                        <div class="step-number">04</div>
+                        <h3 class="step-title">Сдача и гарантия</h3>
+                        <p class="step-desc">Подписываем финальный акт. Начинает действовать гарантия 5 лет на все виды
+                            работ.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section id="pricing" class="section">
+            <div class="container">
+                <h2 class="section-title text-center text-uppercase">Честные цены</h2>
+
+                <div class="pricing-grid">
+                    <!-- Standard Plan -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Косметический</h3>
+                            <div class="pricing-price">от 5 000 ₽</div>
+                            <span class="pricing-unit">за м²</span>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-list">
+                                <li>• Малярные работы (стены, потолок)</li>
+                                <li>• Кварцвинил и ламинат</li>
+                                <li>• Розетки и выключатели</li>
+                                <li>• Монтаж освещения</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#leads" class="button button-primary button-full">Выбрать тариф</a>
+                        </div>
+                    </div>
+
+                    <!-- Featured Plan -->
+                    <div class="pricing-card featured">
+                        <div class="bestseller-badge">Бестселлер</div>
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Капитальный</h3>
+                            <div class="pricing-price">от 12 000 ₽</div>
+                            <span class="pricing-unit">за м²</span>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-list">
+                                <li>• Демонтажные работы</li>
+                                <li>• Стяжка и штукатурка под маяк</li>
+                                <li>• Полная разводка ХВС/ГВС</li>
+                                <li>• Электромонтаж щита</li>
+                                <li>• Перепланировка СРО</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#leads" class="button button-white text-blue button-full"
+                                style="background-color: white; color: var(--color-trust-blue); padding: 16px; font-weight: 900; text-align: center; display: block; text-transform: uppercase;">Рассчитать
+                                объект</a>
+                        </div>
+                    </div>
+
+                    <!-- Premium Plan -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Премиум</h3>
+                            <div class="pricing-price">от 25 000 ₽</div>
+                            <span class="pricing-unit">за м²</span>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-list">
+                                <li>• Дизайн-проект 3D</li>
+                                <li>• Менеджер объекта 24/7</li>
+                                <li>• Премиальные отделочные материалы</li>
+                                <li>• Системы контроля протечек</li>
+                                <li>• Приточно-вытяжная вент.</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#leads" class="button button-primary button-full">Обсудить проект</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews -->
+        <section class="section bg-gray text-white">
+            <div class="container text-center">
+                <h2 class="section-title"><span class="text-white">Голоса</span> <span
+                        class="text-orange">бизнеса</span></h2>
+
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="quote-icon">“</div>
+                        <p class="review-text">«Строй-Мастер» выполняли ремонт нашего центрального офиса. Смета сошлась
+                            копейка в копейку, а задержка в 2 дня из-за поставки мебели была компенсирована за наш счет.
+                            Очень высокий уровень дисциплины.</p>
+                        <div class="review-author">Сергей Морозов</div>
+                        <div class="review-role">Ген. директор ООО «Логистик-Групп»</div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="quote-icon">“</div>
+                        <p class="review-text">Искали подрядчика, который работает по СРО и страховке. Работа выполнена
+                            чисто, акты закрывались вовремя. Рекомендую для крупных коммерческих объектов.</p>
+                        <div class="review-author">Анна Васильева</div>
+                        <div class="review-role">Управляющая ТЦ «Меркурий»</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="section">
+            <div class="container faq-wrapper">
+                <h2 class="section-title text-center text-blue">Вопросы и <span class="text-gray"
+                        style="color: var(--color-steel-gray);">ответы</span></h2>
+
+                <div class="faq-list">
+                    <div class="faq-item active">
+                        <button class="faq-header">
+                            <span class="faq-question">Как быстро вы выходите на объект?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-content">
+                            <p>Обычно в течение 3-5 рабочих дней после подписания договора и согласования сметы. Бригада
+                                и прораб назначаются на объект сразу после внесения первой части оплаты за материалы
+                                (если закупаем мы).</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-header">
+                            <span class="faq-question">Может ли вырасти цена в процессе работ?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-content">
+                            <p>Нет. Сумма, зафиксированная в договоре на момент подписания сметы, является
+                                окончательной. Исключение составляют только дополнительные работы, которые вы можете
+                                заказать отдельно в ходе ремонта.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-header">
+                            <span class="faq-question">Даете ли вы гарантию на скрытые работы?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-content">
+                            <p>Да, гарантия 5 лет распространяется на все виды работ, включая сантехнические и
+                                электромонтажные. Мы фиксируем все этапы на фото и видео для вашего спокойствия.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lead Form -->
+        <section id="leads" class="section bg-gray text-white">
+            <div class="container leads-grid">
+                <div class="leads-content">
+                    <div class="leads-divider"></div>
+                    <h2>Рассчитаем смету <br> за 120 секунд</h2>
+                    <p class="leads-desc">Ответьте на 3 вопроса, и наш главный инженер свяжется с вами для обсуждения
+                        деталей.</p>
+                    <ul class="leads-list">
+                        <li><span class="check-icon">✓</span> Бесплатный выезд в пределах МКАД</li>
+                        <li><span class="check-icon">✓</span> План расстановки мебели в подарок</li>
+                    </ul>
+                </div>
+
+                <form id="lead-form" class="lead-form">
+                    <div class="form-group">
+                        <label class="form-label">Объект</label>
+                        <select class="form-select">
+                            <option>Офис / Коммерция</option>
+                            <option>Квартира</option>
+                            <option>Коттедж</option>
+                            <option>Склад / Цех</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Площадь (м²)</label>
+                        <input type="number" placeholder="65" class="form-input">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Номер телефона</label>
+                        <input type="tel" placeholder="+7 (___) ___-__-__" required class="form-input">
+                    </div>
+
+                    <button type="submit" class="button button-primary button-full"
+                        style="font-size: 20px; padding: 20px;">Получить расчет</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Contacts -->
+        <section id="contacts" class="section" style="padding-top: 0; padding-bottom: 0;">
+            <div class="container contacts-grid">
+                <div class="contacts-info" style="padding: 48px 0;">
+                    <h2 class="section-title text-blue" style="margin-bottom: 48px; font-size: 36px;">Свяжитесь с нами
+                    </h2>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 20 20">
+                                <path
+                                    d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0015.003 4H4.997a2 2 0 00-1.994 1.884z">
+                                </path>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="contact-label">Эл. почта</div>
+                            <div class="contact-value">info@stroy-master.ru</div>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="contact-label">Офис</div>
+                            <div class="contact-value">Москва, Пресненская наб., 12 <br>Башня «Федерация»</div>
+                        </div>
+                    </div>
+
+                    <div class="contact-item"
+                        style="border-left: 4px solid var(--color-construction-orange); padding-left: 24px;">
+                        <div>
+                            <div class="contact-label">Работаем:</div>
+                            <div class="contact-value" style="font-size: 14px;">ПН-ВС: 09:00 — 21:00 <br> Оценка объекта
+                                в день заявки</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-placeholder">
+                    <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&q=80&w=1000"
+                        alt="Map View" class="map-image">
+                    <div class="map-btn">MAP VIEW</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="logo-group" style="margin-bottom: 24px;">
+                        <div class="logo-box" style="background-color: white; color: var(--color-trust-blue);">СМ</div>
+                        <span class="logo-text" style="color: white;">Строй-Мастер</span>
+                    </div>
+                    <p class="footer-desc">Продюсируем надежность с 2012 года. Сотни объектов и тысячи довольных
+                        кирпичей.</p>
+                </div>
+
+                <div class="footer-links">
+                    <div>
+                        <h4 class="footer-title">Услуги</h4>
+                        <ul class="footer-list">
+                            <li><a href="#">Жилой ремонт</a></li>
+                            <li><a href="#">Офисная отделка</a></li>
+                            <li><a href="#">Инженерия</a></li>
+                            <li><a href="#">Дизайн-проекты</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="footer-title">О компании</h4>
+                        <ul class="footer-list">
+                            <li><a href="#">Портфолио</a></li>
+                            <li><a href="#">Лицензии</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-contact">
+                    <div class="footer-contact-label">На связи круглосуточно</div>
+                    <a href="tel:+78005553535" class="footer-phone">+7 800 555-35-35</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                © 2026 ООО «Строй-Мастер» | ИНН 7700000000 | Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
